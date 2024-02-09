@@ -1,0 +1,13 @@
+h2{
+    color: aliceblue;
+}
+.close{
+   /* background-color: border-box;*/
+    color:white;
+    font-size: 33px;
+    font-weight: 700;
+    width: 500px;
+    border: none;
+    background: none;
+
+}

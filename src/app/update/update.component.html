@@ -1,0 +1,41 @@
+<div class="container mt-5">
+<div class=" row">
+    <div class="col-md-6">
+        <div class="card">
+            <h5>Update data</h5>
+            <div class="row">
+                <form>
+                    <div class="mb-2">
+                      <label for="exampleInputEmail">Enter  name</label>
+                      <input type="text" class="form-control"  [(ngModel)]="employee.name" name="name"  placeholder="Enter  name">
+                    </div>
+                    <div class="mb-2">
+                        <label for="exampleInputEmail">Enter  Email</label>
+                        <input type="Email" class="form-control"  [(ngModel)]="employee.email" name="email"      placeholder="Enter Email">
+                      </div>
+                    
+                      <div class="mb-2">
+                        <label for="exampleInputEmail">Enter city</label>
+                        <input type="text" class="form-control"   [(ngModel)]="employee.city" name="#city" placeholder="Enter city">
+                      </div>
+                      <div class="mb-2">
+                        <label for="exampleInputEmail">Enter pincode</label>
+                        <input type="number" class="form-control"  [(ngModel)]="employee.pincode" name="pincode"   placeholder="Enter pincode">
+                      </div>
+                      <div class="mb-2">
+                        <label for="exampleInputEmail">Enter phone number</label>
+                        <input type="number" class="form-control" [(ngModel)]="employee.phonenumber"  name="phonenumber" placeholder="Enter phone number">
+                      </div>
+                      
+                  </form> 
+            </div>
+<div>
+    <button  (click)="update()"   class="btn btn-success">Update</button>&nbsp;
+    <button  class="btn btn-dark" routerLink="/">Back</button>
+
+</div>
+        </div>
+    </div>
+
+</div>
+</div>

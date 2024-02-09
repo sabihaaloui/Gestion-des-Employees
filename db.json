@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "name": "Omar",
+      "email": "Radhwan",
+      "city": "Eygpt",
+      "pincode": 215469,
+      "phonenumber": 32154,
+      "id": 1
+    },
+    {
+      "name": "sabiha",
+      "email": "sabiha.aloui@gmail.com",
+      "city": "Tunis",
+      "pincode": 21546,
+      "phonenumber": 21546,
+      "id": 2
+    },
+    {
+      "name": "arwa",
+      "email": "issaoui",
+      "city": "Kef",
+      "pincode": 215469,
+      "phonenumber": 21547,
+      "id": 3
+    }
+  ]
+}
